@@ -2220,3 +2220,955 @@ Lucene.Net.Index.MergePolicy+MergeException: Exception of type 'Lucene.Net.Index
 2015-09-17 15:39:14,417 [59] INFO  umbraco.content - [P6384/T58/D13] Loaded Xml from file.
 2015-09-17 15:39:14,430 [59] INFO  Umbraco.Core.PluginManager - [P6384/T58/D13] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
 2015-09-17 15:39:14,432 [59] INFO  Umbraco.Core.PluginManager - [P6384/T58/D13] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2015-09-17 15:51:43,880 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [ScheduledTasks] Terminating
+2015-09-17 15:51:43,880 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [ScheduledTasks] Waiting for tasks to complete
+2015-09-17 15:51:43,881 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [ScheduledPublishing] Terminating
+2015-09-17 15:51:43,881 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [ScheduledPublishing] Waiting for tasks to complete
+2015-09-17 15:51:43,883 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [ScheduledTasks] Tasks completed, terminated
+2015-09-17 15:51:43,885 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [ScheduledPublishing] Tasks completed, terminated
+2015-09-17 15:51:45,456 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [KeepAlive] Terminating
+2015-09-17 15:51:45,456 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [KeepAlive] Waiting for tasks to complete
+2015-09-17 15:51:45,458 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [KeepAlive] Tasks completed, terminated
+2015-09-17 15:51:45,459 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [LogScrubber] Terminating
+2015-09-17 15:51:45,459 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [LogScrubber] Waiting for tasks to complete
+2015-09-17 15:51:45,459 [59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T58/D13] [LogScrubber] Tasks completed, terminated
+2015-09-17 15:51:55,140 [72] INFO  Umbraco.Core.CoreBootManager - [P6384/T1/D14] Umbraco 7.2.8 application starting on DEBBIEMCKAY-PC
+2015-09-17 15:51:55,192 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Determining hash of code files on disk
+2015-09-17 15:51:55,207 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Hash determined (took 13ms)
+2015-09-17 15:51:55,224 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-17 15:51:55,572 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 346ms)
+2015-09-17 15:51:55,687 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-17 15:51:55,717 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 30ms)
+2015-09-17 15:51:55,718 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-17 15:51:55,734 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 15ms)
+2015-09-17 15:51:55,765 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-17 15:51:55,792 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 9 (took 26ms)
+2015-09-17 15:51:55,792 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-17 15:51:55,803 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 36 (took 10ms)
+2015-09-17 15:51:55,858 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-17 15:51:55,867 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 8ms)
+2015-09-17 15:51:55,867 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-17 15:51:55,876 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2015-09-17 15:51:56,882 [72] INFO  Umbraco.Core.DatabaseContext - [P6384/T1/D14] CanConnect = True
+2015-09-17 15:51:56,899 [72] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P6384/T1/D14] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-17 15:51:56,935 [72] INFO  Umbraco.Web.Search.ExamineEvents - [P6384/T1/D14] Initializing Examine and binding to business logic events
+2015-09-17 15:51:57,019 [72] INFO  Umbraco.Web.Search.ExamineEvents - [P6384/T1/D14] Adding examine event handlers for index providers: 3
+2015-09-17 15:51:57,034 [72] INFO  Umbraco.Core.CoreBootManager - [P6384/T1/D14] Umbraco application startup complete (took 1874ms)
+2015-09-17 15:51:57,369 [72] INFO  Umbraco.Core.ApplicationContext - [P6384/T1/D14] ApplicationUrl: http://localhost:80/umbraco (UmbracoModule request)
+2015-09-17 15:51:57,746 [72] INFO  umbraco.content - [P6384/T1/D14] Load Xml from file...
+2015-09-17 15:51:57,748 [72] INFO  umbraco.content - [P6384/T1/D14] Loaded Xml from file.
+2015-09-17 15:51:57,875 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-17 15:51:57,890 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 15ms)
+2015-09-17 15:51:58,559 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 15:51:58,579 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 19ms)
+2015-09-17 15:51:59,790 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 15:51:59,790 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-17 15:51:59,827 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-17 15:51:59,838 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 10ms)
+2015-09-17 15:52:15,466 [59] INFO  Umbraco.Core.UmbracoApplicationBase - [P6384/T58/D13] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-09-17 15:52:57,688 [72] INFO  umbraco.BusinessLogic.Log - [P6384/T1/D14] Log scrubbed.  Removed all items older than 2015-07-19 15:52:57
+2015-09-17 15:53:26,314 [72] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P6384/T1/D14] Login attempt succeeded for username matthew.jones@slimming-world.com from IP address ::1
+2015-09-17 15:53:32,297 [72] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P6384/T1/D14] Login attempt succeeded for username matthew.jones@slimming-world.com from IP address ::1
+2015-09-17 16:12:14,558 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-09-17 16:12:14,573 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 8ms)
+2015-09-17 16:12:14,848 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of umbraco.interfaces.ITree
+2015-09-17 16:12:14,861 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 12ms)
+2015-09-17 16:12:14,883 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-09-17 16:12:14,883 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-09-17 16:12:14,883 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of umbraco.interfaces.ITree
+2015-09-17 16:12:14,914 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 40ms)
+2015-09-17 16:12:14,946 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Starting resolution types of umbraco.interfaces.IApplication
+2015-09-17 16:12:14,961 [72] INFO  Umbraco.Core.PluginManager - [P6384/T1/D14] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 13ms)
+2015-09-17 16:15:48,152 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [ScheduledPublishing] Terminating
+2015-09-17 16:15:48,153 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [ScheduledPublishing] Waiting for tasks to complete
+2015-09-17 16:15:48,153 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [LogScrubber] Terminating
+2015-09-17 16:15:48,153 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [LogScrubber] Waiting for tasks to complete
+2015-09-17 16:15:48,159 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [ScheduledPublishing] Tasks completed, terminated
+2015-09-17 16:15:48,159 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [LogScrubber] Tasks completed, terminated
+2015-09-17 16:15:49,739 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [KeepAlive] Terminating
+2015-09-17 16:15:49,739 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [KeepAlive] Waiting for tasks to complete
+2015-09-17 16:15:49,739 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [ScheduledTasks] Terminating
+2015-09-17 16:15:49,739 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [ScheduledTasks] Waiting for tasks to complete
+2015-09-17 16:15:49,740 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [KeepAlive] Tasks completed, terminated
+2015-09-17 16:15:49,740 [72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T1/D14] [ScheduledTasks] Tasks completed, terminated
+2015-09-17 16:16:19,176 [11] INFO  Umbraco.Core.CoreBootManager - [P6384/T46/D15] Umbraco 7.2.8 application starting on DEBBIEMCKAY-PC
+2015-09-17 16:16:19,245 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Determining hash of code files on disk
+2015-09-17 16:16:19,257 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Hash determined (took 10ms)
+2015-09-17 16:16:19,268 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-17 16:16:19,296 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 26ms)
+2015-09-17 16:16:19,446 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-17 16:16:19,447 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2015-09-17 16:16:19,448 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-17 16:16:19,450 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 2ms)
+2015-09-17 16:16:19,472 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-17 16:16:19,475 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 9 (took 2ms)
+2015-09-17 16:16:19,475 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-17 16:16:19,481 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 36 (took 5ms)
+2015-09-17 16:16:19,544 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-17 16:16:19,548 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2015-09-17 16:16:19,548 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-17 16:16:19,550 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2015-09-17 16:16:19,811 [72] INFO  Umbraco.Core.UmbracoApplicationBase - [P6384/T1/D14] Application shutdown. Reason: ConfigurationChange
+2015-09-17 16:16:35,595 [11] INFO  Umbraco.Core.DatabaseContext - [P6384/T46/D15] CanConnect = True
+2015-09-17 16:16:35,609 [11] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P6384/T46/D15] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-17 16:16:35,630 [11] INFO  Umbraco.Web.Search.ExamineEvents - [P6384/T46/D15] Initializing Examine and binding to business logic events
+2015-09-17 16:16:35,685 [11] INFO  Umbraco.Web.Search.ExamineEvents - [P6384/T46/D15] Adding examine event handlers for index providers: 3
+2015-09-17 16:16:35,701 [11] INFO  Umbraco.Core.CoreBootManager - [P6384/T46/D15] Umbraco application startup complete (took 16501ms)
+2015-09-17 16:16:36,155 [11] INFO  Umbraco.Core.ApplicationContext - [P6384/T46/D15] ApplicationUrl: http://localhost:80/umbraco (UmbracoModule request)
+2015-09-17 16:17:37,084 [11] INFO  umbraco.BusinessLogic.Log - [P6384/T46/D15] Log scrubbed.  Removed all items older than 2015-07-19 16:17:36
+2015-09-17 16:17:37,214 [11] INFO  umbraco.content - [P6384/T46/D15] Load Xml from file...
+2015-09-17 16:17:37,216 [11] INFO  umbraco.content - [P6384/T46/D15] Loaded Xml from file.
+2015-09-17 16:17:37,232 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-17 16:17:37,235 [11] INFO  Umbraco.Core.PluginManager - [P6384/T46/D15] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 1ms)
+2015-09-17 16:21:58,893 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [ScheduledPublishing] Terminating
+2015-09-17 16:21:58,893 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [ScheduledPublishing] Waiting for tasks to complete
+2015-09-17 16:21:58,893 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [KeepAlive] Terminating
+2015-09-17 16:21:58,893 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [KeepAlive] Waiting for tasks to complete
+2015-09-17 16:21:58,894 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [KeepAlive] Tasks completed, terminated
+2015-09-17 16:21:58,895 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [ScheduledPublishing] Tasks completed, terminated
+2015-09-17 16:22:00,464 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [LogScrubber] Terminating
+2015-09-17 16:22:00,464 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [LogScrubber] Waiting for tasks to complete
+2015-09-17 16:22:00,464 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [ScheduledTasks] Terminating
+2015-09-17 16:22:00,464 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [ScheduledTasks] Waiting for tasks to complete
+2015-09-17 16:22:00,464 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [ScheduledTasks] Tasks completed, terminated
+2015-09-17 16:22:00,465 [11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P6384/T46/D15] [LogScrubber] Tasks completed, terminated
+2015-09-17 16:22:12,860 [48] INFO  Umbraco.Core.CoreBootManager - [P6384/T1/D16] Umbraco 7.2.8 application starting on DEBBIEMCKAY-PC
+2015-09-17 16:22:12,922 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Determining hash of code files on disk
+2015-09-17 16:22:12,930 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Hash determined (took 7ms)
+2015-09-17 16:22:12,950 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-17 16:22:13,373 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 421ms)
+2015-09-17 16:22:13,469 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-17 16:22:13,490 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 21ms)
+2015-09-17 16:22:13,491 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-17 16:22:13,503 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 11ms)
+2015-09-17 16:22:13,523 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-17 16:22:13,535 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 9 (took 11ms)
+2015-09-17 16:22:13,536 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-17 16:22:13,546 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 37 (took 9ms)
+2015-09-17 16:22:13,613 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-17 16:22:13,624 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 11ms)
+2015-09-17 16:22:13,624 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-17 16:22:13,635 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 10ms)
+2015-09-17 16:22:14,416 [48] INFO  Umbraco.Core.DatabaseContext - [P6384/T1/D16] CanConnect = True
+2015-09-17 16:22:14,428 [48] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P6384/T1/D16] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-17 16:22:14,458 [48] INFO  Umbraco.Web.Search.ExamineEvents - [P6384/T1/D16] Initializing Examine and binding to business logic events
+2015-09-17 16:22:14,520 [48] INFO  Umbraco.Web.Search.ExamineEvents - [P6384/T1/D16] Adding examine event handlers for index providers: 3
+2015-09-17 16:22:14,542 [48] INFO  Umbraco.Core.CoreBootManager - [P6384/T1/D16] Umbraco application startup complete (took 1658ms)
+2015-09-17 16:22:14,807 [48] INFO  Umbraco.Core.ApplicationContext - [P6384/T1/D16] ApplicationUrl: http://localhost:80/umbraco (UmbracoModule request)
+2015-09-17 16:22:14,880 [48] INFO  umbraco.content - [P6384/T1/D16] Load Xml from file...
+2015-09-17 16:22:14,881 [48] INFO  umbraco.content - [P6384/T1/D16] Loaded Xml from file.
+2015-09-17 16:22:14,973 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-17 16:22:14,988 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 13ms)
+2015-09-17 16:22:15,514 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 16:22:15,526 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 12ms)
+2015-09-17 16:22:16,760 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-17 16:22:16,760 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2015-09-17 16:22:16,797 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-17 16:22:16,813 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 15ms)
+2015-09-17 16:22:24,432 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:24,588 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-09-17 16:22:24,603 [48] INFO  Umbraco.Core.PluginManager - [P6384/T1/D16] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 21ms)
+2015-09-17 16:22:25,327 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:26,199 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:26,433 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:26,599 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:26,783 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:26,940 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:27,201 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:27,455 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:27,697 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:27,897 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:28,150 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:29,448 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:29,832 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:30,025 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:30,264 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:30,522 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:30,539 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [P6384/T46/D15] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-09-17 16:22:30,903 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:31,089 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:31,310 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:31,496 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:31,696 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:31,957 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:32,371 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:32,613 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:32,849 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:33,049 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:33,231 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:33,413 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:33,585 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:33,964 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:34,168 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:34,374 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:34,589 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:34,836 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:35,154 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:35,382 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:35,686 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:35,963 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:36,139 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:36,321 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:36,524 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:36,633 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:36,738 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:36,865 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:37,071 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:37,252 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:37,409 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:37,563 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:37,772 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:37,976 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:38,275 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:22:38,334 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:38,630 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:38,844 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:39,060 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:39,285 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:39,483 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:39,713 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:39,995 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:40,170 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:40,416 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:40,618 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:40,783 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:41,005 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:41,208 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:41,438 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:41,882 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:41,987 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:42,158 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:42,347 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:42,535 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:42,722 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:42,922 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:43,293 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:43,489 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:43,674 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:43,932 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:44,192 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:44,525 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:44,785 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:44,976 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:45,188 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:45,346 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:45,536 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:45,718 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:45,828 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:45,927 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:46,128 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:46,474 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:46,614 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:46,797 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:47,049 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:47,240 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:47,668 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:47,942 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:48,129 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:48,318 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:48,525 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:48,654 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:48,782 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:48,872 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-09-17 16:22:48,999 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:49,182 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:49,220 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:22:49,355 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:49,655 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:49,811 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:50,083 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:50,324 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:50,553 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:50,773 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:51,030 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:51,257 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:51,509 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:51,696 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:51,879 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:52,060 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:52,274 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:52,554 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:52,745 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:52,929 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:53,140 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:53,317 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:53,573 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:54,047 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:54,264 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:54,432 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:54,618 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:54,831 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:55,093 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:55,265 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:55,497 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:55,749 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:55,999 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:56,219 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:56,417 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:56,642 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:56,902 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:57,145 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:57,379 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:57,589 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:57,788 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:57,990 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:58,193 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:58,426 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:58,624 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:58,749 [48] INFO  umbraco.content - [P6384/T1/D16] Save Xml to file...
+2015-09-17 16:22:58,769 [48] INFO  umbraco.content - [P6384/T1/D16] Saved Xml to file.
+2015-09-17 16:22:58,936 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:59,128 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:59,340 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:59,594 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:22:59,837 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:00,253 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:00,417 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:00,627 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:00,820 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:00,820 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:23:00,970 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:01,149 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:01,349 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:01,534 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:01,752 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:02,089 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:02,364 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:02,647 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:02,995 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:03,328 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:03,563 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:03,818 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:04,049 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:04,267 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:04,500 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:04,758 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:04,924 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:05,139 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:05,352 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:05,588 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:05,840 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:06,193 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:10,279 [48] INFO  umbraco.content - [P6384/T1/D16] Save Xml to file...
+2015-09-17 16:23:10,279 [48] INFO  umbraco.content - [P6384/T1/D16] Saved Xml to file.
+2015-09-17 16:23:12,458 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:12,607 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:12,810 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:12,995 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:13,201 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:13,415 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:13,616 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:13,811 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:14,080 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:14,345 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:14,594 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:14,924 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:15,139 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:15,359 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:15,610 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:15,870 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:16,045 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:16,219 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:16,386 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:16,570 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:16,777 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:17,015 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:17,489 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:17,919 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:18,189 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:18,260 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-09-17 16:23:18,440 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:18,788 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:18,995 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:23:19,139 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:19,360 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:19,573 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:19,860 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:20,155 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:20,569 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:20,826 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:20,895 [48] INFO  umbraco.BusinessLogic.Log - [P6384/T1/D16] Log scrubbed.  Removed all items older than 2015-07-19 16:23:20
+2015-09-17 16:23:21,025 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:21,247 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:21,540 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:22,065 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:22,287 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:22,516 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:22,728 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:22,932 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:23,099 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:23,454 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:23,737 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:23,924 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:24,128 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:24,340 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:24,523 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:24,656 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:24,872 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:25,096 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:25,406 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:25,620 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:25,846 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:26,058 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:26,392 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:26,678 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:27,010 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:27,194 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:27,476 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:27,729 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:27,977 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:28,255 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:28,643 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:28,892 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:29,194 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:30,114 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:30,298 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:30,544 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:30,796 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:31,079 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:31,362 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:31,654 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:31,822 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:31,955 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:32,248 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:32,520 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:32,835 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:23:32,866 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:33,283 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:33,473 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:33,666 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:33,842 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:34,074 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:34,399 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:34,640 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:34,826 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:35,044 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:35,297 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:35,610 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:36,127 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:36,432 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:36,600 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:36,770 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:36,966 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:37,150 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:37,333 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:37,628 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:37,886 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:38,101 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:38,337 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:38,654 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:38,932 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:39,235 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:39,658 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:39,891 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:40,119 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:40,307 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:40,520 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:40,767 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:41,090 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:41,368 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:41,654 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:41,971 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:42,420 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:42,784 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:42,982 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:43,183 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:43,370 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:43,564 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:43,743 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:43,979 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:44,156 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:44,335 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:44,562 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:44,741 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-09-17 16:23:44,829 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:45,019 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:45,191 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:45,374 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:45,579 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:45,815 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:46,022 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:46,162 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:46,334 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:46,563 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:46,755 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:46,802 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:23:46,880 [48] INFO  umbraco.content - [P6384/T1/D16] Save Xml to file...
+2015-09-17 16:23:46,911 [48] INFO  umbraco.content - [P6384/T1/D16] Saved Xml to file.
+2015-09-17 16:23:46,944 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:47,225 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:47,383 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:47,526 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:47,713 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:47,916 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:48,113 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:48,269 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:48,531 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:48,773 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:48,976 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:49,151 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:49,314 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:49,437 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:49,724 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:49,958 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:50,362 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:50,612 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:50,863 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:51,142 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:51,472 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:51,715 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:51,994 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:23:56,058 [48] INFO  umbraco.content - [P6384/T1/D16] Save Xml to file...
+2015-09-17 16:23:56,058 [48] INFO  umbraco.content - [P6384/T1/D16] Saved Xml to file.
+2015-09-17 16:24:02,496 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:02,743 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:02,933 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:03,167 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:03,412 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:03,716 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:03,965 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:04,217 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:04,768 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:05,045 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:05,275 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:05,480 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:05,873 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:06,046 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:06,261 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:06,455 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:06,691 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:06,914 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:07,133 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:07,401 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:07,740 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:07,992 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:08,257 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:08,465 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:08,702 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:10,070 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:10,363 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:10,565 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:10,821 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:10,853 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:24:11,022 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:11,201 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:11,402 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:11,552 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:11,765 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:12,123 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:12,322 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:12,600 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:12,859 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:13,086 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:13,306 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:13,628 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:13,915 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:14,170 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:14,389 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:14,640 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:14,837 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:15,074 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:15,470 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:15,694 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:15,860 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:16,096 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:16,366 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:16,868 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:17,122 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:17,367 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:17,567 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:17,788 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:18,016 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:18,229 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:18,999 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:19,205 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:19,417 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:19,840 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:20,048 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:20,247 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:20,416 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:20,501 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-09-17 16:24:20,659 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:20,876 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:21,108 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:21,352 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:21,592 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:21,863 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:22,231 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:22,497 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:22,848 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:23,088 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:23,344 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:23,641 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:23,868 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:24,065 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:24,080 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:24:24,230 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:24,448 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:24,662 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:24,893 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:25,179 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:25,386 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:25,604 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:25,852 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:26,202 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:26,482 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:26,814 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:27,056 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:27,269 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:27,491 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:27,705 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:27,906 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:28,090 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:28,368 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:28,684 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:28,840 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:29,172 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:29,596 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:29,789 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:29,999 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:30,235 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:30,522 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:30,758 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:30,973 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:31,182 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:31,374 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:31,763 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:32,232 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:32,453 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:32,685 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:32,902 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:33,124 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:33,335 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:33,569 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:33,760 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:34,009 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:34,247 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:34,578 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:35,006 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:35,256 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:35,529 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:35,723 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:35,898 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:36,097 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:36,293 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:36,509 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:36,621 [48] INFO  umbraco.content - [P6384/T1/D16] Save Xml to file...
+2015-09-17 16:24:36,677 [48] INFO  umbraco.content - [P6384/T1/D16] Saved Xml to file.
+2015-09-17 16:24:36,856 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:36,893 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:24:37,081 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:37,295 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:37,547 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:37,781 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:38,128 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:38,455 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:38,707 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:38,940 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:39,125 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:39,310 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:39,507 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:39,769 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:40,005 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:40,245 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:40,461 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:40,641 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:40,914 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:41,255 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:41,639 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:41,959 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:42,175 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:42,404 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:42,631 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:42,864 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:43,079 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:43,262 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:43,455 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:43,643 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:43,938 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:44,276 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:44,717 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:45,081 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:45,284 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:45,515 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:45,743 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:45,827 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-09-17 16:24:46,009 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:46,181 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:46,392 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:46,639 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:46,852 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:47,068 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:47,311 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:47,791 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:48,220 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:48,452 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:48,684 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:48,892 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:49,243 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:49,477 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:49,775 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:24:49,806 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:49,989 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:50,347 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:50,594 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:50,946 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:51,177 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:51,370 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:51,540 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:51,743 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:51,943 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:52,222 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:52,415 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:52,596 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:52,723 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:52,877 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:53,050 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:53,258 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:53,484 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:53,695 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:53,995 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:54,349 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:54,654 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:54,809 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:54,950 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:55,043 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:55,153 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:55,247 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:55,357 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:55,556 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:55,806 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:55,998 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:56,190 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:56,431 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:56,726 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:56,932 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:57,165 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:57,526 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:57,756 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:57,966 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:58,169 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:58,380 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:58,590 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:58,786 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:59,050 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:59,174 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:59,379 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:59,609 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:24:59,839 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:00,236 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:00,648 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:00,837 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:01,024 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:01,271 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:01,303 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:25:01,471 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:01,626 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:01,800 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:01,989 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:02,203 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:02,399 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:02,588 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:02,775 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:03,008 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:03,294 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:03,486 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:03,753 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:03,944 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:04,122 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:04,376 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:04,595 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:04,845 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:05,001 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:05,193 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:05,429 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:05,617 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:05,904 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:06,193 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:06,367 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:06,550 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:06,676 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:06,916 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:07,068 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:07,251 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:07,330 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:07,451 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:07,587 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:07,735 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:07,838 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-09-17 16:25:07,955 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:08,167 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:08,391 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:08,609 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:08,837 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:09,152 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:09,391 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:09,625 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:09,839 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:10,181 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:10,311 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:10,494 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:10,713 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:10,823 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:11,004 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:11,129 [48] INFO  umbraco.content - [P6384/T1/D16] Save Xml to file...
+2015-09-17 16:25:11,147 [48] INFO  umbraco.content - [P6384/T1/D16] Saved Xml to file.
+2015-09-17 16:25:11,276 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:11,452 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:11,672 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:11,896 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:12,178 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:12,178 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:25:12,496 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:12,633 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:12,838 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:13,033 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:13,405 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:13,551 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:13,753 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:13,940 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:14,142 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:14,367 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:14,600 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:14,882 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:15,122 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:15,333 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:15,503 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:15,707 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:15,906 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:16,091 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:16,339 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:16,650 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:16,816 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:16,999 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:17,194 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:17,404 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:17,626 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:17,842 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:18,100 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:18,351 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:18,560 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:18,747 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:18,952 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:19,148 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:19,315 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:19,502 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:19,615 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:19,873 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:19,992 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:20,147 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:20,382 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:20,570 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:20,793 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:21,016 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:21,258 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:21,527 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:21,744 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:21,962 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:22,168 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:22,355 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:22,554 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:22,790 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:23,119 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:25:23,165 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:23,409 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:23,675 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:24,021 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:24,454 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:24,632 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:24,793 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:24,945 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:25,094 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:25,264 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:25,482 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:25,728 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:25,932 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:26,163 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:26,812 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:27,011 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:27,287 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:27,538 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:27,751 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:28,017 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:28,202 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:28,415 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:28,595 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:28,831 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:29,079 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:29,316 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:29,494 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:29,677 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:30,218 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:30,404 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:30,555 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-09-17 16:25:30,749 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:31,014 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:31,202 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:31,370 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:31,536 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:31,691 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:31,980 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:32,111 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:32,224 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:32,336 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:32,483 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:32,834 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:33,032 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:33,562 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:33,898 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:34,141 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:34,260 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:34,446 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:34,616 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:34,809 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:35,023 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:35,061 [48] INFO  UmbracoExamine.DataServices.UmbracoLogService - [P6384/T1/D16] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-09-17 16:25:35,275 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:35,422 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:35,642 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:35,807 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:36,110 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:36,347 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:36,848 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:37,028 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:37,476 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:37,632 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:37,939 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:38,062 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:38,221 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:38,459 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:38,660 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:38,851 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:39,063 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:39,255 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:39,544 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:39,781 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:40,444 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:40,646 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:40,818 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:40,965 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:41,143 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:41,316 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:41,493 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:41,672 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:41,885 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:42,092 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:42,327 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:42,610 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:42,816 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:43,085 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:43,533 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:43,774 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:44,024 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:44,235 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:44,420 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:44,538 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:44,654 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:44,749 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:44,870 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:45,015 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:45,249 [48] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P6384/T1/D16] Content 'My site now has a membership provider and the abil' with Id '1150' has been published.
+2015-09-17 16:25:45,284 [48] INFO  umbraco.content - [P6384/T1/D16] Save Xml to file...
+2015-09-17 16:25:45,289 [48] INFO  umbraco.content - [P6384/T1/D16] Saved Xml to file.
+2015-09-17 16:25:49,313 [48] INFO  umbraco.content - [P6384/T1/D16] Save Xml to file...
+2015-09-17 16:25:49,322 [48] INFO  umbraco.content - [P6384/T1/D16] Saved Xml to file.
