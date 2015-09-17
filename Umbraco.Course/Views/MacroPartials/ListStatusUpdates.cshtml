@@ -9,8 +9,8 @@
     Recent status updates
 </h3>
 <div id="stream">
-    @using (DisposableTimer.DebugDuration<Stream>("List status updates foreach"))    
-    {
+@using (DisposableTimer.DebugDuration<Stream>("List status updates foreach"))    
+{
     foreach (var statusUpdate in statusUpdates)
     {
         <div id="status@(statusUpdate.Id)">
@@ -59,7 +59,7 @@
                 <div style="clear:both"></div>
         </div>
     }
-    }
+}
 </div>
 <hr/>
 <div class="alert alert-info">
