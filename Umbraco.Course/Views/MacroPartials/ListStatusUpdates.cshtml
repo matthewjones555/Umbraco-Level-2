@@ -37,7 +37,7 @@
                 </p>
                 <!-- Files go here -->
                 <ul class="files thumbnails">
-          @if (statusUpdate.HasProperty("relatedMedia") && statusUpdate.HasValue("relatedMedia"))
+                @if (statusUpdate.HasProperty("relatedMedia") && statusUpdate.HasValue("relatedMedia"))
                 {
 					// get any related media id's as comma delimited list
                     var relatedMediaIds = statusUpdate.GetPropertyValue<string>("relatedMedia").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
