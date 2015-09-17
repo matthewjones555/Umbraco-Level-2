@@ -23,6 +23,11 @@ namespace Umbraco.Course.Controllers
 
             statusUpdate.SetValue("bodyText", model.BodyText);
 
+            if (Members.IsLoggedIn())
+            {
+                statusUpdate.SetValue("memberId", Members.GetCurrentMemberId());
+            }
+
             if (model.Files.HasFiles() && model.Files.ContainsImages())
             {
                 string statusFolderName = "Status updates";
