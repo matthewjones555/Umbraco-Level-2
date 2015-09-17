@@ -1,0 +1,28 @@
+﻿@using Umbraco.Course.Controllers
+@model Umbraco.Course.Models.StatusUpdateModel
+
+@using (Html.BeginUmbracoForm<StatusUpdateController>("Create"))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        
+        <legend>StatusUpdateModel</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.BodyText)
+        </div>
+        <div class="editor-field">
+            @Html.TextAreaFor(model => model.BodyText)
+            @Html.ValidationMessageFor(model => model.BodyText)
+        </div>
+        
+        <div class="editor-field">
+            <input type="file" multiple="true" name="Files"/>
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}

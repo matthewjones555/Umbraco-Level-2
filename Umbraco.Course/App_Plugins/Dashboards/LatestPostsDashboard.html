@@ -1,0 +1,11 @@
+﻿<div class="latestPostsDashboard" ng-controller="level2.latestsPostsController">
+    
+    <h3>Latest status updates</h3>
+    <div class="statusUpdateContainer" ng-repeat="post in posts">
+        <span>{{post.createDate}}</span>
+        <h4>{{post.memberName}}</h4>
+        <p ng-bind-html-unsafe="post.text"></p>
+        <a class="btn btn-success" href="/umbraco/#/content/content/edit/{{post.id}}">edit</a>
+    </div>
+
+</div>

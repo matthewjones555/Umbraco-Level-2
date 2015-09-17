@@ -1,0 +1,19 @@
+﻿@inherits UmbracoViewPage<Umbraco.Course.Models.StreamModel>
+
+<section class="pagination-wrapper">
+    <nav class="pagination" role="pagination">
+
+        @if (Model.IsFirstPage == false)
+        {
+            <a class="newer-posts" href="?page=@Model.PreviousPage">&larr; Newer Posts</a>
+        }
+
+        <span class="page-number">Page <span class="number">@Model.Page</span> of <span class="number">@Model.TotalPages</span></span>
+
+        @if (Model.IsLastPage == false)
+        {
+            <a class="older-posts" href="?page=@Model.NextPage">Older Posts &rarr;</a>
+        }
+
+    </nav>
+</section>

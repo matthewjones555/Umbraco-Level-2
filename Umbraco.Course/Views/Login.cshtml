@@ -1,0 +1,10 @@
+﻿@using Umbraco.Web.Models
+@inherits UmbracoTemplatePage
+@{
+    Layout = "Layout.cshtml";
+}
+<div class="bodyText">
+    @Html.Raw((Model.Content.GetPropertyValue<string>("BodyText")))
+</div>
+
+<!-- Render login partial here -->

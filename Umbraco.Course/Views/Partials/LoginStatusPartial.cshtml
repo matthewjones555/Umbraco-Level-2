@@ -1,0 +1,13 @@
+﻿@inherits UmbracoTemplatePage
+<ul class="nav navbar-nav navbar-right">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <li><span class="login-welcome">Welcome @User.Identity.Name</span></li>
+         <li><a href="@Url.Action("Logout","Login")"><i class="glyphicon glyphicon-log-out"></i> Logout </a></li>
+    }
+    else
+    {
+        <li><a href="/register"><i class="glyphicon glyphicon-pencil"></i> Register </a></li>
+        <li><a href="/login/"><i class="glyphicon glyphicon-log-in"></i> Login </a></li>
+    }
+</ul>

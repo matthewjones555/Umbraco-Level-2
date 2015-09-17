@@ -1,0 +1,16 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "Layout.cshtml";
+}
+<div class="jumbotron">
+    <h1>@(Model.Content.GetPropertyValue<string>("SiteName", true))</h1>
+    
+    @Html.Raw(Model.Content.GetPropertyValue<string>("BodyText"))
+
+    <p>
+        <a class="btn btn-lg btn-primary" href="/Stream" role="button">Post a Status Update</a>
+    </p>
+</div>
+<div>
+    @Umbraco.RenderMacro("ListStatusUpdates")
+</div>

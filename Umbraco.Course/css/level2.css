@@ -1,0 +1,226 @@
+﻿
+
+#statusForm legend { display: none; }
+
+#stream div:nth-child(odd)	{ }
+#stream div:nth-child(even)	{ }
+#stream div { border-top: 1px solid #cccccc;padding: 1em;clear: both;margin-bottom:1em}
+#stream div p img { float: left;border: 1px solid #cccccc;margin:0 1em 1em 1em}
+
+.status-update {font-size:1.3em}
+#stream ul.thumbnails { list-style: none;margin: 0; padding: 0;}
+#stream ul.thumbnails li { float: left;margin: 0 10px 15px 0;}
+#stream ul.thumbnails img { width: 100px;}
+#stream a { cursor: pointer;}
+.status-meta {}
+/*so we'd totally normally use bootstrap css for form elements, but to save typing for students and to allow them to concentrate on the Umbraconess - here are some form styles'*/
+
+/* forms */
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+    fieldset legend {
+        display: none;
+    }
+
+    fieldset ol {
+        padding: 0;
+        list-style: none;
+    }
+
+        fieldset ol li {
+            padding-bottom: 5px;
+        }
+
+label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+label.checkbox {
+    display: inline;
+}
+
+input, textarea {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #333;
+    font-size: 1.2em;
+    margin: 0px 0 0px 0;
+    padding: 5px;
+    width: 300px;
+}
+
+textarea {
+    font-family: inherit;
+    width: 500px;
+}
+
+    input:focus, textarea:focus {
+        border: 1px solid #7ac0da;
+    }
+
+    input[type="checkbox"] {
+        background: transparent;
+        border: inherit;
+        width: auto;
+    }
+
+    input[type="submit"],
+    input[type="button"],
+    button {
+        background-color: #d3dce0;
+        border: 1px solid #787878;
+        cursor: pointer;
+        font-size: 1.2em;
+        font-weight: 600;
+        padding: 7px;
+        margin-right: 8px;
+        width: auto;
+
+    }
+
+    td input[type="submit"],
+    td input[type="button"],
+    td button {
+        font-size: 1em;
+        padding: 4px;
+        margin-right: 4px;
+    }
+
+/* info and errors */
+.message-info {
+    border: 1px solid;
+    clear: both;
+    padding: 10px 20px;
+}
+
+.message-error {
+    clear: both;
+    color: #e80c4d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.message-success {
+    color: #7ac0da;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.error {
+    color: #ff0000;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #ff0000;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+div.editor-field {
+
+
+}
+div.editor-label {
+    margin-top: 1em;
+
+}
+form fieldset p input {
+    margin-top: 1em;
+
+
+}
+ 
+input[type="submit"], input[type="button"],button,.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+input[type="submit"]:focus, input[type="button"]:focus,button:focus,input[type="submit"]:active:focus, input[type="button"]:active:focus,button:active:focus,.btn:focus,.btn:active:focus,.btn.active:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+input[type="submit"]:hover, input[type="button"]:hover,button:hover,input[type="submit"]:focus, input[type="button"]:focus,button:focus,.btn:hover,.btn:focus {
+    color: #333;
+    text-decoration: none
+}
+
+input[type="submit"]:active, input[type="button"]:active,button:active,.btn:active,.btn.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125)
+}
+
+
+input[type="submit"], input[type="button"],button,.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd
+}
+
+input[type="submit"]:active, input[type="button"]:active,button:active,input[type="submit"]:focus, input[type="button"]:focus,button:focus,input[type="submit"]:hover, input[type="button"]:hover,button:hover,.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e
+}
+
+input[type="submit"]:active, input[type="button"]:active,button:active,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary {
+    background-image: none
+}
+.login-welcome {
+
+line-height: 20px;
+position: relative;
+display: block;
+padding: 15px 15px;
+color: #777;
+text-shadow: 0 1px 0 rgba(255,255,255,.25);
+}
+
+body { padding-top: 68px; }

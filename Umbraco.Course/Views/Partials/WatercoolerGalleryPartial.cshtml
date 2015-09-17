@@ -1,0 +1,83 @@
+﻿@using Umbraco.Web
+@inherits UmbracoTemplatePage
+@{
+    Umbraco.Web.Models.ProfileModel memberProfile = default(Umbraco.Web.Models.ProfileModel);
+    Umbraco.Web.Models.UmbracoProperty avatarProperty = default(Umbraco.Web.Models.UmbracoProperty);
+    if (Members.IsLoggedIn())
+    {
+        memberProfile = Members.GetCurrentMemberProfileModel();
+        avatarProperty = memberProfile.MemberProperties.FirstOrDefault(f => f.Alias == "avatar");
+    }
+}
+<div class="page-header">
+    <h1>uWatercooler <small> - hanging out at the uWatercooler today...</small></h1>
+</div>
+
+<div class="row">
+    @if (memberProfile != null)
+    {
+        <div class="col-xs-6 col-md-4">
+            <a href="#" class="thumbnail pop" data-container="body" data-toggle="popover" data-content="Has been a member since @memberProfile.CreationDate.ToString("dd MMM yyyy",Model.CurrentCulture)" data-original-title="@memberProfile.Name">
+                @if (avatarProperty != null && !String.IsNullOrEmpty(avatarProperty.Value))
+                {
+                    <img src="@avatarProperty.Value?height=70">
+                }
+                else
+                {
+                    <p>Tick 'Use in Profile' on the Avatar property for your MemberType and upload an avatar!</p>
+                }
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="col-xs-6 col-md-4">
+            <a href="#" class="thumbnail pop" data-container="body" data-toggle="popover" data-content="Has been a member since 12th Dec 2010" data-original-title="Niels Hartvig">
+                <img src="/images/avatars/niels.png">
+            </a>
+        </div>}
+    <div class="col-xs-6 col-md-4">
+        <a href="#" class="thumbnail pop" data-container="body" data-toggle="popover" data-content="Has been a member since 12th Dec 2010" data-original-title="Warren Buckley">
+            <img src="/images/avatars/warren.png">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-4">
+        <a href="#" class="thumbnail pop" data-container="body" data-toggle="popover" data-content="Has been a member since 12th Dec 2010" data-original-title="Per Ploug">
+            <img src="/images/avatars/per.png">
+        </a>
+    </div>
+
+
+
+
+    <div class="col-xs-6 col-md-4">
+        <a href="#" class="thumbnail pop" data-container="body" data-toggle="popover" data-content="Has been a member since 12th Dec 2010" data-original-title="Tim Geyssens">
+            <img src="/images/avatars/tim.png">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-4">
+        <a href="#" class="thumbnail pop" data-container="body" data-toggle="popover" data-content="Has been a member since 12th Dec 2010" data-original-title="Peter Gregory">
+            <img src="/images/avatars/peter.png">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-4">
+        <a href="#" class="thumbnail pop" data-container="body" data-toggle="popover" data-content="Has been a member since 12th Dec 2010" data-original-title="Shannon Deminick">
+            <img src="/images/avatars/shannon.png">
+        </a>
+    </div>
+
+    <div class="col-xs-6 col-md-4">
+        <a href="#" class="thumbnail pop" data-container="body" data-toggle="popover" data-placement="left" data-content="Has been a member since 12th Dec 2010" data-original-title="Paul Sterling">
+            <img src="/images/avatars/paul.png">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-4">
+        <a href="#" class="thumbnail pop" data-container="body" ata-toggle="popover" data-content="Has been a member since 12th Dec 2010" data-original-title="Casey Neehouse">
+            <img src="/images/avatars/casey.png">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-4">
+        <a href="#" class="thumbnail pop" data-container="body" data-toggle="popover" data-content="Has been a member since 12th Dec 2010" data-original-title="Morten Christensen">
+            <img src="/images/avatars/morten.png">
+        </a>
+    </div>

@@ -1,0 +1,12 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    var pages = Model.Content.AncestorOrSelf("homePage").Children.Where("Visible");
+}
+<ul class="nav navbar-nav">
+    @foreach (var page in pages)
+    {
+        <li class="@(page.Id == Model.Content.Id ? "active": "")">
+            <a href="@page.Url">@page.Name</a>
+        </li>
+    }
+</ul>

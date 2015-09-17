@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Layout.cshtml";
+}
+<div class="bodyText">
+    @Html.Raw((Model.Content.GetPropertyValue<string>("BodyText")))
+</div>
+<div>
+	<!-- Call Search child action here -->
+</div>
