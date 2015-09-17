@@ -25,9 +25,15 @@ namespace Umbraco.Course.Controllers
                     return Request.CreateResponse(System.Net.HttpStatusCode.BadRequest);
                 }
 
-                int likes = post.GetValue<int>("likes");
-                likes = likes + 1;
+                var member = Services.MemberService.GetById(Members.GetCurrentMemberId());
+                
+                if (!Services.RelationService.AreRelated(post, member, "likes"))
+                {
+                    Services.RelationService.Relate(post, member, "likes");
+                }
 
+                int likes = Services.RelationService.GetByParent(post, "likes").Count();
+                
                 post.SetValue("likes", likes);
                 Services.ContentService.PublishWithStatus(post);            
 
