@@ -1,0 +1,31 @@
+﻿@model Umbraco.Course.Models.ContactModel
+
+@if (TempData["Success"] != null)
+{
+    <p>Thank you for your message.</p>
+}
+else
+{
+    using (@Html.BeginUmbracoForm("Submit", "Contact"))
+    {
+        <div>
+            @Html.LabelFor(m => m.Name)
+            @Html.TextBoxFor(m => m.Name)
+            @Html.ValidationMessageFor(m => m.Name)
+        </div>
+
+        <div>
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email)
+            @Html.ValidationMessageFor(m => m.Email)
+        </div>
+
+        <div>
+            @Html.LabelFor(m => m.Message)
+            @Html.TextAreaFor(m => m.Message)
+            @Html.ValidationMessageFor(m => m.Message)
+        </div>
+    
+        <input type="submit" value="Submit" />
+    }
+}
