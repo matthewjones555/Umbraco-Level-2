@@ -4,7 +4,7 @@
     Layout = "Layout.cshtml";
 }
 <div class="jumbotron" id="statusForm">
-    @{ Html.RenderPartial("StatusUpdatePartial", new StatusUpdateModel()); }
+    @Html.Partial("StatusUpdatePartial", new StatusUpdateModel())
 </div>
 
 <div>
