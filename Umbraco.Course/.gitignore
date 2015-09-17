@@ -11,6 +11,7 @@
 *.userprefs
 
 # Build results
+[Aa]pp_[Dd]ata/cache
 [Aa]pp_[Dd]ata/[Ll]ogs
 [Aa]pp_[Dd]ata/[Tt][Ee][Mm][Pp]
 [Dd]ebug/
