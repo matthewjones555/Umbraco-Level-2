@@ -62,21 +62,23 @@ namespace Umbraco.Course.Level2
             if (Directory.Exists(smtpClient.PickupDirectoryLocation) == false)
                 Directory.CreateDirectory(smtpClient.PickupDirectoryLocation);
         }
-        //public static void PopulatePaging(Umbraco.Course.Models.StreamModel stream)
-        //{
-        //    const int pageSize = 5;
-        //    var skipItems = (pageSize * stream.Page) - pageSize;
 
-        //    var posts = stream.Content.Children.ToList();
-        //    stream.TotalPages = Convert.ToInt32(Math.Ceiling((double)posts.Count() / pageSize));
+        public static void PopulatePaging(Umbraco.Course.Models.StreamModel stream)
+        {
+            const int pageSize = 5;
+            var skipItems = (pageSize * stream.Page) - pageSize;
 
-        //    stream.PreviousPage = stream.Page - 1;
-        //    stream.NextPage = stream.Page + 1;
+            var posts = stream.Content.Children.ToList();
+            stream.TotalCount = posts.Count;
+            stream.TotalPages = Convert.ToInt32(Math.Ceiling((double)posts.Count() / pageSize));
 
-        //    stream.IsFirstPage = stream.Page <= 1;
-        //    stream.IsLastPage = stream.Page >= stream.TotalPages;
+            stream.PreviousPage = stream.Page - 1;
+            stream.NextPage = stream.Page + 1;
 
-        //    stream.StatusUpdates = posts.OrderByDescending(x => x.CreateDate).Skip(skipItems).Take(pageSize);
-        //}
+            stream.IsFirstPage = stream.Page <= 1;
+            stream.IsLastPage = stream.Page >= stream.TotalPages;
+
+            stream.StatusUpdates = posts.OrderByDescending(x => x.CreateDate).Skip(skipItems).Take(pageSize);
+        }
     }
 }

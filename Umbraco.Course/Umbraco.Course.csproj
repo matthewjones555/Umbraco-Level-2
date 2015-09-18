@@ -245,6 +245,7 @@
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\StatusUpdateController.cs" />
+    <Compile Include="Controllers\StreamController.cs" />
     <Compile Include="Level2\Events\Level2ApplicationEventHandler.cs" />
     <Compile Include="Level2\Helper.cs" />
     <Compile Include="Models\ContactModel.cs" />
@@ -253,6 +254,7 @@
     <Compile Include="Models\DummyModel.cs" />
     <Compile Include="Models\SearchModel.cs" />
     <Compile Include="Models\StatusUpdateModel.cs" />
+    <Compile Include="Models\StreamModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -491,6 +493,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\ListStatusUpdates.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\StatusUpdatePagingPartial.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\StatusUpdatePaging.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\WatercoolerGalleryPartial.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

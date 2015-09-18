@@ -1,5 +1,5 @@
 ﻿@using Umbraco.Course.Models
-@inherits UmbracoTemplatePage
+@inherits UmbracoViewPage<StreamModel>
 @{
     Layout = "Layout.cshtml";
 }
@@ -8,5 +8,5 @@
 </div>
 
 <div>
-    @Umbraco.RenderMacro("ListStatusUpdates")
+    @Html.Partial("Partials/ListStatusUpdates", Model)
 </div>

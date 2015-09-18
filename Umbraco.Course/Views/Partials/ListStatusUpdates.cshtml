@@ -1,0 +1,62 @@
+﻿@inherits UmbracoViewPage<Umbraco.Course.Models.StreamModel>
+<h3>
+    Recent status updates
+</h3>
+<div id="stream">
+    @using (DisposableTimer.DebugDuration<Stream>("List status updates foreach"))
+    {
+        foreach (var statusUpdate in Model.StatusUpdates)
+        {
+            <div id="status@(statusUpdate.Id)">
+
+                @if (statusUpdate.HasValue("memberId"))
+                {
+                    var member = Umbraco.TypedMember(statusUpdate.GetPropertyValue<int>("memberId"));
+                    if (member.HasValue("avatar"))
+                    {
+                        <p>
+                            <img src="@(member.GetPropertyValue<string>("avatar"))?width=100" alt="@member.Name" />
+                        </p>
+                    }
+                }
+                <p class="status-update">
+                    @Umbraco.StripHtml(statusUpdate.GetPropertyValue<string>("bodyText"))
+                </p>
+
+                <p>
+                    <a data-status-id="@statusUpdate.Id"><i class="glyphicon glyphicon-thumbs-up"></i> like</a> <span class="likes">@(statusUpdate.GetPropertyValue<int>("likes"))</span> likes.
+                </p>
+                <p>
+                    <strong>Published:</strong> <em>@statusUpdate.CreateDate</em>
+                </p>
+                <!-- Files go here -->
+                <ul class="files thumbnails">
+                    @if (statusUpdate.HasProperty("relatedMedia") && statusUpdate.HasValue("relatedMedia"))
+                    {
+                        // get any related media id's as comma delimited list
+                        var relatedMediaIds = statusUpdate.GetPropertyValue<string>("relatedMedia").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                        // probably use a property value converter to do this in real life...
+                        IEnumerable<IPublishedContent> relatedMediaItems = Umbraco.TypedMedia(relatedMediaIds);
+
+                        foreach (var item in relatedMediaItems)
+                        {
+                            <li>
+                                <a href="@item.Url">
+                                    <img src="@item.Url" />
+                                </a>
+                            </li>
+                        }
+
+                    }
+
+                </ul>
+                <div style="clear:both"></div>
+            </div>
+        }
+    }
+</div>
+@Html.Partial("Partials/StatusUpdatePagingPartial", Model)
+<hr />
+<div class="alert alert-info">
+    <em>Umbraco Macro Rendered at @DateTime.Now, Displaying @Model.StatusUpdates.Count() of @Model.TotalCount items</em>
+</div>
