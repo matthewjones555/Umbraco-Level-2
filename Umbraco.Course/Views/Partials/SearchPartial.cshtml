@@ -3,8 +3,27 @@
 <p>You searched for <strong>@Model.Query</strong></p>
 
 <!-- check for search results-->
+@if(Model.SearchResults != null)
+{
+    <!-- search results feedback -->
+    <div id="stream">
+        <!-- show any search results here -->
+        @foreach (var result in Model.SearchResults)
+        {
+            <div>
+                <h4><a href="/stream#status@(result.Id)">@result.Name</a></h4>
+                <br />
+                @Html.Raw(result.GetPropertyValue<string>("bodyText"))
+            </div>
+        }
+    </div>
+}
 
-<!-- search results feedback -->
-<div id="stream">
-    <!-- show any search results here -->
-</div>
+<p>
+    Your search returned
+    <strong>
+        @Model.SearchResults.Count()
+        @(Model.SearchResults.Count() > 1 ? "results" :
+          Model.SearchResults.Count() == 0 ? "results" : "result")
+    </strong>
+</p>
