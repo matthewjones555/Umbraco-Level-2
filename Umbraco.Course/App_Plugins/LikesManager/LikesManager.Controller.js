@@ -6,13 +6,26 @@
         console.log("Current node Id " + currentNodeId);
 
         $scope.load = function () {
+            $http.get("/umbraco/backoffice/API/LikesManager/GetAll/" + currentNodeId).then(
+                function (response) {
+                    var likes = response.data;
+                    $scope.likes = likes;
+                    $scope.model.value = likes.length;
 
-            // perform loading here..
-
+                    angular.forEach(likes, function (like) {
+                        entityResource.getById(like.ChildId, "Member").then(function (member) {
+                            //add the member information to the like object
+                            like.member = member;
+                        });
+                    });
+                }
+            );
         };
 
         $scope.delete = function(like) {
-           
+            $http.post("/umbraco/backoffice/API/LikesManager/PostDeleteById/" + like.Id).then(function () {
+                $scope.load();
+            });
         };
 
         $scope.load();
