@@ -10,6 +10,7 @@
         }
     ],
     "javascript": [ 
-        "~/App_Plugins/likesmanager/likesmanager.controller.js"
+        "~/App_Plugins/likesmanager/likesmanager.controller.js",
+        "~/App_Plugins/likesmanager/likes.service.js"
     ]
 }

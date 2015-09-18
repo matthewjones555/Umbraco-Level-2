@@ -1,12 +1,12 @@
 ﻿angular.module("umbraco").controller("Level2.LikesManagerController",
 
-    function ($scope, $http, entityResource, editorState) {
+    function ($scope, $http, entityResource, editorState, likesService) {
         
         var currentNodeId = editorState.current.id;
         console.log("Current node Id " + currentNodeId);
 
         $scope.load = function () {
-            $http.get("/umbraco/backoffice/API/LikesManager/GetAll/" + currentNodeId).then(
+            likesService.getAll(currentNodeId).then(
                 function (response) {
                     var likes = response.data;
                     $scope.likes = likes;
@@ -23,7 +23,7 @@
         };
 
         $scope.delete = function(like) {
-            $http.post("/umbraco/backoffice/API/LikesManager/PostDeleteById/" + like.Id).then(function () {
+            likesService.delete(like.Id).then(function () {
                 $scope.load();
             });
         };
